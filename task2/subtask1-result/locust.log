@@ -1,0 +1,5 @@
+[2025-10-20 16:02:05,384] debian/INFO/locust.main: Starting Locust 2.42.0
+[2025-10-20 16:02:05,384] debian/INFO/locust.main: Run time limit set to 600 seconds
+[2025-10-20 16:02:05,384] debian/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
+[2025-10-20 16:12:05,247] debian/INFO/locust.main: --run-time limit reached, shutting down
+[2025-10-20 16:12:05,276] debian/INFO/locust.main: Shutting down (exit code 0)
