@@ -1,0 +1,31 @@
+"""
+Соответствует REST endpoint /clients/{id}
+"""
+type Client {
+  id: ID!
+  name: String
+  age: Int
+  documents: [Document]
+  relatives: [Relative]
+}
+
+"""
+Соответствует REST endpoint /clients/{id}/documents
+"""
+type Document {
+  id: ID!
+  type: String
+  number: String
+  issueDate: String
+  expiryDate: String
+}
+
+"""
+Соответствует REST endpoint /clients/{id}/relatives
+"""
+type Relative {
+  id: ID!
+  relationType: String
+  name: String
+  age: Int
+}
