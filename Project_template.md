@@ -66,12 +66,19 @@
 
 
 
+[InsureTech_C4_сontainer-diagram](task4/InsureTech_C4_сontainer-diagram.drawio.xml)
+
+
 # Task 5.
 
 
+[client-inf.graphql](task5/client-inf.graphql)
 
 
 # Task 6.
 
 
+Для решения проблемы с производительностью API в InsureTech предлагается использовать паттерн Rate Limiting. Это позволит ограничить количество запросов от партнёров и предотвратить снижение производительности приложения, обеспечивая более равномерное распределение ресурсов и стабильность работы системы.
+
+[nginx.conf](task5/nginx.conf)
 
